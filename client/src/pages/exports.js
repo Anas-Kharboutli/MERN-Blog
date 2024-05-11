@@ -5,6 +5,6 @@ import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Projects from "./Projects";
 import Header from "../components/Header";
+import FooterComponent from "../components/Footer";
 
-
-export { Home, About, Dashboard, SignIn, SignUp, Projects, Header };
+export { Home, About, Dashboard, SignIn, SignUp, Projects, Header, FooterComponent };

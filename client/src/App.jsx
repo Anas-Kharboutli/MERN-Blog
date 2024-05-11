@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, About, Dashboard, SignIn, SignUp, Projects, Header } from "./pages/exports";
+import { Home, About, Dashboard, SignIn, SignUp, Projects, Header, FooterComponent } from "./pages/exports";
 
 const App = () => {
   return (
@@ -17,6 +17,9 @@ const App = () => {
       <Route path='/projects'  element={<Projects />} />
 
     </Routes>
+
+    <FooterComponent />
+    
     </BrowserRouter>
   )
 }
