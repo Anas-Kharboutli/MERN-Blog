@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { signInStart, signInSuccess, signInFailure } from "../redux/user/userSlice";
 import { useDispatch, useSelector } from 'react-redux';
+import { OAuth } from "../pages/exports";
 
 const SignIn = () => {
 
@@ -81,6 +82,9 @@ const SignIn = () => {
                 ) : "Sign In"
               }
             </Button>
+
+            <OAuth />
+
             <div className="flex gap-2 text-sm mt-5">
               <span>Dont have an account ?</span>
               <Link to="/signup" className="text-blue-500">

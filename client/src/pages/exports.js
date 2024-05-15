@@ -6,5 +6,6 @@ import SignUp from "./SignUp";
 import Projects from "./Projects";
 import Header from "../components/Header";
 import FooterComponent from "../components/Footer";
+import OAuth from "../components/OAuth";
 
-export { Home, About, Dashboard, SignIn, SignUp, Projects, Header, FooterComponent };
+export { Home, About, Dashboard, SignIn, SignUp, Projects, Header, FooterComponent, OAuth };
